@@ -173,24 +173,12 @@ namespace ConsoleApp1
 
             switch (numberOfString)
             {
-                case 1:
-                    shift = 7;
-                    break;
-                case 2:
-                    shift = 0;
-                    break;
-                case 3:
-                    shift = 4;
-                    break;
-                case 4:
-                    shift = 9;
-                    break;
-                case 5:
-                    shift = 2;
-                    break;
-                case 6:
-                    shift = 7;
-                    break;
+                case 1: shift = 7; break;
+                case 2: shift = 0; break;
+                case 3: shift = 4; break;
+                case 4: shift = 9; break;
+                case 5: shift = 2; break;
+                case 6: shift = 7; break;
             }
 
             int[] newNotes = new int[notes.Length];
@@ -207,4 +195,3 @@ namespace ConsoleApp1
         }
     }
 }
-
